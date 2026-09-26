@@ -15,7 +15,7 @@ dclab project1/
 │   └── Dataset for Data Analytics.xlsx   # original, untouched dataset
 ├── dcl_p1.py                              # cleaning script
 ├── cleaned_dataset.xlsx                   # output: cleaned data
-└── change_log.pdf                         # output: documented change log
+└── change_log.xlsx                         # output: documented change log
 ```
 
 ## What the Script Does
@@ -56,7 +56,7 @@ Outputs `cleaned_dataset.xlsx` and `change_log.xlsx` in the project folder.
 | CR005 | Standardized casing/whitespace in `ReferralSource` | Consistent formatting |
 | CR006 | Standardized `Date` to ISO 8601 | Consistent date format |
 
-Full detail available in `change_log.pdf`.
+Full detail available in `change_log.xlsx`.
 
 ## Tools Used
 - **Python 3.14**, **pandas**, **openpyxl**
